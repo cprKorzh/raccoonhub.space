@@ -1,0 +1,89 @@
+.wrapper {
+  position: relative;
+  width: 44.5%;
+  height: 60%;
+  min-width: 366px;
+  min-height: 377px;
+}
+
+.common {
+  position: absolute;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+}
+/*445*466*/
+.raccoon {
+  width: 80.44943820224719%;
+  height: 63.73390557939914%;
+  left: 14.8314606741573%;
+  top: 36.26609442060086%;
+}
+
+.checkDoc {
+  width: 14.28571428571429%;
+  height: 16.7381974248927%;
+  left: 3.82022471910112%;
+  top: 52.57510729613734%;
+  animation-name: vertical;
+  animation-delay: 1s;
+}
+
+.message {
+  width: 18.20224719101124%;
+  height: 17.59656652360515%;
+  left: 8.31460674157303%;
+  top: 23.60515021459227%;
+  animation-name: vertical;
+  animation-delay: 2s;
+}
+/*445*466*/
+.table {
+  width: 16.40449438202247%;
+  height: 15.66523605150215%;
+  left: 41.12359550561798%;
+  top: 15.66523605150215%;
+  animation-name: vertical;
+  animation-delay: 3s;
+}
+
+.titleHub {
+  width: 25.84269662921348%;
+  height: 9.01287553648069%;
+  left: 67.19101123595506%;
+  top: 15.66523605150215%;
+  animation-name: horizontal;
+  animation-delay: 2s;
+}
+
+.titleRaccoon {
+  width: 56.85393258426966%;
+  height: 9.01287553648069%;
+  left: 35.50561797752809%;
+  top: 3.21888412017167%;
+  animation-name: horizontal;
+}
+
+@keyframes horizontal {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(3px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes vertical {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(3px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

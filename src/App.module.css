@@ -1,0 +1,36 @@
+.container {
+  width: 100%; /* Занимает всю ширину */
+  min-height: 100vh; /* Минимальная высота 100% высоты окна */
+  margin: 0 auto; /* Центрирование содержимого */
+  box-sizing: border-box; /* Включение отступов и границ в общую ширину и высоту */
+  background-color: var(--Steel-Blue);
+}
+
+.content {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  max-width: 1000px; /* Максимальная ширина контента */
+  height: 100vh;
+  margin: 0 auto; /* Центрирование контента */
+}
+
+.logoTitle {
+  text-align: center;
+  color: var(--Pure-Snow);
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.logoTitle a {
+  color: var(--Pure-Snow);
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.logoTitle a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

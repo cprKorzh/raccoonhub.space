@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: grid;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+:root {
+  /*gray*/
+  --Semi-Gray: rgba(0, 0, 0, 0.08);
+  --Silver-Mist: #E0E0E0;
+  --Light-Gray: #BDBDBD;
+  --Nature-Gray: #949494;
+  --Slate-Gray: #41474C;
+  /*dark*/
+  --Midnight-Abyss: #00000A;
+  --Deep-Teal: #253C4B;
+  /*light*/
+  --Pure-Snow: #FFFFFF;
+  --Golden-Sun: #FDD200;
+  --Golden-Sun40: rgba(253, 210, 0, 0.4);
+  --Harvest-Gold: #FDC018;
+  --Amber-Glow: #FEBA13;
+  /*ocean-breeze*/
+  --Ocean-Breeze: #598CAF;
+  --Ocean-Breeze4: rgba(89, 140, 175, 0.04);
+  --Ocean-Breeze20: rgba(89, 140, 175, 0.2);
+  --Ocean-Breeze50: rgba(89, 140, 175, 0.5);
+  /*steel-blue*/
+  --Steel-Blue: #416279;
+  --Steel-Blue40: rgba(65, 98, 121, 0.4);
+  /*steel-blue*/
+  --Deep-Red: #CC4141;
+  --Deep-Red40: rgba(204, 65, 65, 0.4);
+  --Peach-Orange: #FF9F51;
+  --Peach-Orange40: rgba(255, 159, 81, 0.4);
+  --Nature-Yellow: #E9D314;
+  --Nature-Yellow40: rgba(233, 211, 20, 0.4);
+  --Deep-Green: #47BA4D;
+  --Deep-Green: rgba(71, 186, 77, 0.4);
+  /*result-other*/
+  --Soft-Green: #80CE84;
+  --Light-Green: #95BA47;
+}
