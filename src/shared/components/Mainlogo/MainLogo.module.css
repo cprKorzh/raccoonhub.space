@@ -1,4 +1,4 @@
-.wrapper {
+.logo {
   position: relative;
   width: 44.5%;
   height: 60%;
@@ -6,21 +6,21 @@
   min-height: 377px;
 }
 
-.common {
+.logo__common {
   position: absolute;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   animation-duration: 4s;
 }
 /*445*466*/
-.raccoon {
+.logo__raccoon {
   width: 80.44943820224719%;
   height: 63.73390557939914%;
   left: 14.8314606741573%;
   top: 36.26609442060086%;
 }
 
-.checkDoc {
+.logo__checkDoc {
   width: 14.28571428571429%;
   height: 16.7381974248927%;
   left: 3.82022471910112%;
@@ -29,7 +29,7 @@
   animation-delay: 1s;
 }
 
-.message {
+.logo__message {
   width: 18.20224719101124%;
   height: 17.59656652360515%;
   left: 8.31460674157303%;
@@ -38,7 +38,7 @@
   animation-delay: 2s;
 }
 /*445*466*/
-.table {
+.logo__table {
   width: 16.40449438202247%;
   height: 15.66523605150215%;
   left: 41.12359550561798%;
@@ -47,7 +47,7 @@
   animation-delay: 3s;
 }
 
-.titleHub {
+.logo__titleHub {
   width: 25.84269662921348%;
   height: 9.01287553648069%;
   left: 67.19101123595506%;
@@ -56,7 +56,7 @@
   animation-delay: 2s;
 }
 
-.titleRaccoon {
+.logo__titleRaccoon {
   width: 56.85393258426966%;
   height: 9.01287553648069%;
   left: 35.50561797752809%;
